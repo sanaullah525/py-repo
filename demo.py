@@ -29,4 +29,4 @@ print()
 ba= (8*(25/5)-2)
 print(ba, "\n")
 ab= (30/5)*(22-6)/4
-print(ab)
+print(ab)``
