@@ -34,8 +34,8 @@ print(ab)
 
 #...Now time for Data types
 name = "Sanaullah"
-age = 25
-height = 5
+print(age = 25
+height = 5.4
 is_student = True
 skills = ["Python", "Data Analysis", "SQL"]
 
