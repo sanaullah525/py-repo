@@ -33,3 +33,14 @@ print(ab)
 
 
 #...Now time for Data types
+name = "Sanaullah"
+age = 25
+height = 5
+is_student = True
+skills = ["Python", "Data Analysis", "SQL"]
+
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(is_student))
+print(type(skills))
