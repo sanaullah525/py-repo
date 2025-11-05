@@ -46,5 +46,28 @@ print(type(height))
 print(type(is_student))
 print(type(skills))
 
+print()
+#...This print() is used for a line break.
+
+
 #...String concatenation and Replication.
-'Hiwad' + 'Khan'
+print('Zerak ' + 'Khan')
+print('Zerak' + "24", "\n")
+'''This will result in a error.
+Because we can't combine 
+string values to an integer directly.'''
+
+print('Zerak Khan  '*5)
+'''This returns Zerak Khan 5 times.'''
+print()
+
+#...Storing Values in Variables.
+spam= 40
+print(spam)
+
+eggs= 2
+print(spam+eggs+spam)
+
+spam= spam +2
+print(spam)
+
