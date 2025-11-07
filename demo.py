@@ -90,3 +90,9 @@ print(len(myName),"\n")
 print("What's your age ?") # Ask for their age.
 myAge= float(input())
 print(f"You will be {myAge + 1} in a year.\n")
+
+print()
+print()
+
+name = "Sanaullah"
+print(f"My name is {name}")
