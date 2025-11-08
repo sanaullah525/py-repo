@@ -101,4 +101,12 @@ print()
 
 pi= round(3.14159)
 print(pi)
-print(type(pi)) 
+print(type(pi))
+
+
+#...Boolean Logic in python.
+print(45 == 45.0)
+
+print(34 == '34')
+
+print(90 == 0090.00)
