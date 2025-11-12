@@ -121,7 +121,8 @@ print('spam' * 3)
 print()
 
 total_burritos= 99
-print('I have eaten ' + str(total_burritos) + ' burritos.')
+print('I have eaten ' + str(total_burritos) +
+       ' burritos.')
 print()
 
 #...Boolean values, comparison operators, and Boolean operators.
@@ -156,4 +157,3 @@ print()
 print(not True)
 print(not False)
 print()
-
