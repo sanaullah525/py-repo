@@ -3,7 +3,7 @@
  Simple Python scripts to demonstrate print statements
   and basic arithmetic operations.
 """
-
+"""
 print("Welcome to the python world !!!", 
       "This is my first demo script.",
     "Python is fun to learn and use.", "Happy coding!", 
@@ -156,5 +156,11 @@ print()
 
 print(not True)
 print(not False)
-print()
+print() 
+                """
+
+#...Mixing Boolean and Comparison Operators
+print((4 < 5) and (5 < 6))
+print((4 < 5) or (9 < 6))
+print((1 == 2) or (2 == 1))
 
