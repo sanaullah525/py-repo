@@ -230,7 +230,7 @@ else:
     print('Wrong password !')
 '''
 
-
+'''
 #...elif examples.
 print('What is your name ?')
 name= input()
@@ -252,5 +252,30 @@ elif age > 2000:
     print('Unlike you, Alice is not an undead, immortal vampire.')
 else:
     print('You are not Alice at all...')
+'''
 
 
+
+#...Nested statements.
+print('What is your name ?')
+name= input()
+
+if name != 'Alice':
+    print('Access denied!')
+else:
+  print('How old are you ?')
+  age= int(input())
+  print()
+
+  if name != 'Alice':
+      print('You are not Alice at all.')
+  elif name == 'Alice' and age == 12:
+      print('Hi Alice, please enter your password')
+  elif age < 12:
+      print('Have you done your homework ?',"Turn off the PC. Right now!!!")
+  elif age > 49:
+      print("You're not Alice granny.")
+  elif 12 < age < 49:
+      print('Access denied!\nYou are not an authorized person.')
+  elif age > 2000:
+      print('Unlike you, Alice is not an undead, immortal vampire.')
