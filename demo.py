@@ -147,7 +147,7 @@ print()
 
 ###...Boolean operators...###
 #..AND operator
-print(True and True)
+print(True and True) #..AND operator evaluates to TRUE only when both of its operands are True.
 print(True and False)
 print(False and True)
 print(False and False)
@@ -157,7 +157,7 @@ print()
 print(True or True)
 print(True or False)
 print(False or True)
-print(False or False)
+print(False or False)  #..OR operator returns false value only when both are false.
 print()
 
 #..Mixing Operators
@@ -279,3 +279,4 @@ else:
       print('Access denied!\nYou are not an authorized person.')
   elif age > 2000:
       print('Unlike you, Alice is not an undead, immortal vampire.')
+
