@@ -254,8 +254,7 @@ else:
     print('You are not Alice at all...')
 '''
 
-
-
+'''
 #...Nested statements.
 print('What is your name ?')
 name= input()
@@ -279,4 +278,14 @@ else:
       print('Access denied!\nYou are not an authorized person.')
   elif age > 2000:
       print('Unlike you, Alice is not an undead, immortal vampire.')
+'''
+
+###...Use of Truthy and Falsy values.
+
+print("Enter a name.")
+name= input()
+if name!= '':
+    print("\nThanks for entering a name.")
+else:
+    print("You didn't enter a name.")
 
